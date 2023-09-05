@@ -1,12 +1,18 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 body {
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(45deg, rgb(251, 214, 4), transparent);
 }
 
 .card {
+    background-color: white;
     width: 35vw;
     min-width: 250px;
     height: 38vh;
@@ -16,25 +22,51 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 5px 5px 20px 6px lightgrey;
-    font-family: Helvetica, sans-serif;
+    box-shadow: 5px 5px 20px 6px grey;
+    font-family: 'Quicksand', sans-serif;
+ 
+   
 }
+
 input {
     border: none;
     border-bottom: 1px solid lightgrey;
-    margin: 20px;
-    width: 50%;
+    margin: 25px;
+    width: 45%;
     height: 20px;
     font-size: 0.9em;
-    
+    margin-bottom: 0;
 }
 
-button {
-    padding: 8px;
-    font-size: 0.9em;
-    background-color: rgb(3, 167, 238);
+p {
+    color: rgb(29, 29, 245);
+    font-size: 9px;
+    margin-top: 0;
     width: 45%;
+   
+}
+
+.btn {
+    height: 35px;
+    font-size: 0.9em;
+    background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
+    color: white;
+    width: 50%;
     border: none;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
+    transition: background-color 1s opacity 1s;
+    box-shadow: 0 6px #999;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(201, 100, 201);
+}
+
+.btn:active, .btn:focus {
+    box-shadow: 0 3px #666;
+    transform: translateY(5px);
+    opacity: 0.8;   
 }
