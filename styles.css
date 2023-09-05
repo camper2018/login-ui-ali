@@ -65,8 +65,9 @@ p {
     background-color: rgb(201, 100, 201);
 }
 
-.btn:active, .btn:focus {
+.btn:active {
     box-shadow: 0 3px #666;
     transform: translateY(5px);
+    background-color: rgb(201, 100, 201);
     opacity: 0.8;   
 }
