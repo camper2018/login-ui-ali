@@ -28,9 +28,7 @@ input {
     font-size: 0.9em;
     
 }
-input#password {
-    -webkit-text-security: circle;
-}
+
 button {
     padding: 8px;
     font-size: 0.9em;
