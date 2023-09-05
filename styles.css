@@ -1,0 +1,42 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 35vw;
+    min-width: 250px;
+    height: 38vh;
+    min-height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 20px 6px lightgrey;
+    font-family: Helvetica, sans-serif;
+}
+input {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    margin: 20px;
+    width: 50%;
+    height: 20px;
+    font-size: 0.9em;
+    
+}
+input#password {
+    -webkit-text-security: circle;
+}
+button {
+    padding: 8px;
+    font-size: 0.9em;
+    background-color: rgb(3, 167, 238);
+    width: 45%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
