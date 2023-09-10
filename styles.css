@@ -14,7 +14,8 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
     width: 35vw;
-    min-width: 250px;
+    /* min-width: 250px; */
+    min-width: 355px;
     height: 38vh;
     min-height: 300px;
     border-radius: 10px;
@@ -41,9 +42,20 @@ input {
     background-color: transparent;
 }
 
+input[type="checkbox"] {
+    width:15px;
+    height: 13px;
+   
+}
+label[for="showPassword"] {
+   font-size: 12px;
+
+}
+
 p {
     color: rgb(29, 29, 245);
     font-size: 9px;
+
 }
 
 .btn {
