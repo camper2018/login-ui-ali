@@ -11,7 +11,7 @@ body {
 .home {
     margin: 0 auto;
     /* Image source: https://www.indiamart.com/proddetail/government-employee-database-2851319949248.html */
-    background-image: url("https://5.imimg.com/data5/SELLER/Default/2023/5/312516658/KL/FO/MN/93426120/govt-employee-database-2--500x500.png");
+    background-image: url('background-database.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
