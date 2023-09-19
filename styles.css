@@ -8,13 +8,39 @@ body {
     justify-content: center;
     background: linear-gradient(160deg, gold, transparent);
 }
+.home {
+    margin: 0 auto;
+    /* Image source: https://www.indiamart.com/proddetail/government-employee-database-2851319949248.html */
+    background-image: url("https://5.imimg.com/data5/SELLER/Default/2023/5/312516658/KL/FO/MN/93426120/govt-employee-database-2--500x500.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+.home-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
 
 .card {
-    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20221107/pngtree-dusty-blue-watercolor-leaves-with-gold-frame-image_1471146.jpg");
+    background-image: url("login-background.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     width: 35vw;
-    /* min-width: 250px; */
     min-width: 355px;
     height: 38vh;
     min-height: 300px;
@@ -29,10 +55,10 @@ body {
 }
 
 .card > div{
-    width: 45%;
+    width: 40%;
 }
 .card > div:last-child {
-    width: 50%;
+    width: 45%;
 }
 input {
     font-size: 1em;
