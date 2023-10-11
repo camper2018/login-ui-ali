@@ -8,7 +8,7 @@
      if (username && password.length >= 8 ) {
         var body = document.querySelector("body");
         body.style.margin = "0px";
-        body.innerHTML = `<div class='home'></div>
+        body.innerHTML = `<div class='home-page'></div>
                           <div class="home-text">
                             <h2>Hello President ${username}!</h2>
                             <h1 style="font-size:50px">Welcome to the United States Government Database!</h1>
